@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(228, 228, 228);
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+#cabecalho {
+    background-color: #f7b600;
+    padding: 3vw;
+    text-align: center;
+    font-size: large;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1vw;
+}
+
+button {
+    font-size: large;
+    background-color: #f7b600;
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+button:hover {
+    background: white;
+    color: #f7b600;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.post1, .post2 {
+    margin: 2vw 0vw 0vw 20vw;
+    width: 90%;
+    max-width: 35vw;
+    height: auto;
+    background-color: #f4f4f4;
+    padding: 1vw 2vw;
+}
+
+.Leia {
+    text-decoration: none;
+    color: #f7b600;
+}
+
+.rodape {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    background-color: #bdbdbd;
+    text-align: center;
+    width: 90%;
+    max-width: 50vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+.float1{
+    float: right;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:#f4f4f4 ;
+    width: 20vw;
+    height: auto;
+    margin: 10vw 5vw 0vw 0vw;
+    text-align: left;
+    padding: 0vw 2vw 0vw 1vw;
+}
+.text{
+    background:#4e4e4ead;
+    color:#4a4949;
+    width: auto;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: #f7b600;
+}
